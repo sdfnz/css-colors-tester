@@ -16,13 +16,12 @@ form {
 }
 
 input {
-	margin-bottom: 1rem;
 	display: block;
 	border-style: none; 
-	font-size: 3rem;
+	font-size: 4rem;
 	text-align: center;
 	color: #ed5565;
-	text-shadow: 3px 3px #333333;
+	text-shadow: 4px 2px 2px #454545;
 	text-transform: uppercase;
 	background: none;
 }
@@ -33,10 +32,12 @@ input:focus {
 
 #red {
 	color: red;
+	margin-bottom: 2rem;
 }
 
 #green {
 	color: green;
+	margin-bottom: 2rem;
 }
 
 #blue {
