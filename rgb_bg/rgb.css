@@ -1,0 +1,44 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+input {
+	margin-bottom: 1rem;
+	display: block;
+	border-style: none; 
+	font-size: 3rem;
+	text-align: center;
+	color: #ed5565;
+	text-shadow: 3px 3px #333333;
+	text-transform: uppercase;
+	background: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+#red {
+	color: red;
+}
+
+#green {
+	color: green;
+}
+
+#blue {
+	color: blue;
+}
