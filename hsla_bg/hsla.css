@@ -30,22 +30,21 @@ input:focus {
 	outline: none;
 }
 
-#red {
+#hue {
 	color: red;
 	margin-bottom: 2rem;
 }
 
-#green {
-	color: green;
+#sat {
+	color: #000;
 	margin-bottom: 2rem;
 }
 
-#blue {
-	color: blue;
+#light {
+	color: #fff;
+	margin-bottom: 2rem;
 }
 
-nav {
-	position: absolute;
-	width: 50px;
-	height: 50px;
+#alpha {
+	color: grey;
 }

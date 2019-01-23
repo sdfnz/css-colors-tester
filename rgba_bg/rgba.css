@@ -3,6 +3,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	overflow-y: hidden;
 }
 
 form {
@@ -42,6 +43,11 @@ input:focus {
 
 #blue {
 	color: blue;
+	margin-bottom: 2rem;
+}
+
+#alpha {
+	color: #333333;
 }
 
 nav {
