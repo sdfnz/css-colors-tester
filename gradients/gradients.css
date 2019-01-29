@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;	
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+body {
+	background: linear-gradient(to bottom, #05ffa1, #01cdfe);
+}
+
+nav {
+	margin: 1vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+form {
+	font-size: 1.25rem;
+	color: #454545;
+}
+
+.direction {
+	text-align: center;
+}
+
+.colorBoxes {
+	display: flex;
+	flex-direction: column;
+}
+
+.colorBoxes input {
+	margin-top: 1rem;
+	text-align: center;
+}
