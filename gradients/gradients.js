@@ -1,7 +1,6 @@
 const numColors = document.querySelector(".number");
 const boxContainer = document.querySelector(".colorBoxes");
 const direction = document.querySelector(".direction");
-let numBoxes = 0;
 
 numColors.addEventListener("change", addBoxes);
 numColors.addEventListener("input", addBoxes);
@@ -45,3 +44,23 @@ function setBackground() {
 	colors = "linear-gradient(" + directValue + colors + ")";
 	document.body.style.background = colors;
 };
+
+let firstColor = document.createElement("input");
+let secondColor = document.createElement("input");
+firstColor.className = "color1";
+secondColor.className = "color2";
+firstColor.type = "text";
+secondColor.type = "text";
+firstColor.value = "#05FFA1";
+secondColor.value = "#01CDFE";
+firstColor.addEventListener("input", setBackground);
+firstColor.addEventListener("change", setBackground);
+secondColor.addEventListener("input", setBackground);
+secondColor.addEventListener("change", setBackground);
+boxContainer.appendChild(firstColor);
+boxContainer.appendChild(secondColor);
+let numBoxes = 2;
+setBackground();
+
+
+

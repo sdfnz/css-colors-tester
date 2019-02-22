@@ -11,11 +11,11 @@ html, body {
 }
 
 body {
-	background: linear-gradient(to bottom, #05ffa1, #01cdfe);
 }
 
 nav {
 	margin: 1vh;
+	margin-top: 0;
 	display: flex;
 	justify-content: space-around;
 }

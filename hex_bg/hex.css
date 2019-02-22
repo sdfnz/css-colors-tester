@@ -3,6 +3,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 form {
@@ -38,7 +39,6 @@ input:focus {
 }
 
 .dropdown {
-	margin-top: 1rem;
 	left: 2%;
 	position: relative;
 	display: inline-block;
