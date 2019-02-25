@@ -2,9 +2,6 @@ const numColors = document.querySelector(".number");
 const boxContainer = document.querySelector(".colorBoxes");
 const direction = document.querySelector(".direction");
 
-numColors.addEventListener("change", addBoxes);
-numColors.addEventListener("input", addBoxes);
-
 function addBoxes() {
 	let amount = Number(numColors.value);
 	if (amount === numBoxes) {
@@ -45,6 +42,14 @@ function setBackground() {
 	document.body.style.background = colors;
 };
 
+numColors.addEventListener("change", addBoxes);
+numColors.addEventListener("input", addBoxes);
+
+direction.addEventListener("change", setBackground);
+direction.addEventListener("input", setBackground);
+
+// Create the initial gradient when the page loads
+
 let firstColor = document.createElement("input");
 let secondColor = document.createElement("input");
 firstColor.className = "color1";
@@ -61,6 +66,3 @@ boxContainer.appendChild(firstColor);
 boxContainer.appendChild(secondColor);
 let numBoxes = 2;
 setBackground();
-
-
-
